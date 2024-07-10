@@ -34,3 +34,40 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+# Development Workflow
+## Merge Requests
+
+    Merge requests must be accepted by another team member.
+    Branches cannot be deleted until the merge is complete.
+    Branches should be deleted after merging, except for the develop branch.
+
+## Code of Conduct
+
+    Collaboration: Merge requests should be reviewed and approved by another team member if code was not pair-programmed.
+    Review Deadlines: Soft deadline for reviewing merge requests is 3 days. Automatic reminders can be set up.
+    Issue Tracking: All tasks should be added to the issue board and broken down into smaller tasks.
+    Communication: Raise any issues or irritations as soon as possible to prevent escalation.
+    Code Review: Thoroughly check the work before accepting it and document how it was checked.
+    Testing: All code merge requests must include testing.
+    Test Coverage: Agree on a minimum test coverage of 50% for core functionality.
+    SOLID Principles: Follow SOLID principles in the codebase.
+    Weekly Meetings: Meetings will be held every Tuesday as a baseline.
+
+## Kanban Workflow
+
+    Work in Progress (WIP): Maintain a maximum number of WIP items.
+    Structure:
+        Ideas
+        Issues
+        In Progress (Tests)
+        In Progress (Code/Production)
+        In Review
+        Done
+
+# Additional Notes
+
+    Ensure that the database schema is designed to efficiently handle the volume of data expected.
+    Regularly back up the database to prevent data loss.
+    Implement security measures to protect sensitive customer information.
+
